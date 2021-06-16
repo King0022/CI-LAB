@@ -19,6 +19,7 @@ public class CILabTest {
     }
 
     @Test
+    /* this test is for true example */
     public void detectCapitalUseTest1() {
     	myString.setString("Correct");
     	assertTrue(myString.detectCapitalUse());
