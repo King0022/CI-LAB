@@ -25,6 +25,7 @@ public class CILabTest {
     	assertTrue(myString.detectCapitalUse());
     }
     @Test
+    /* this test is for false example */
     public void detectCapitalUseTest2() {
         myString.setString("INcoRReCt");
         assertTrue(myString.detectCapitalUse());
